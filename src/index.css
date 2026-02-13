@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --clr-orange: 25 97% 53%;
+  --clr-white: 0 100% 100%;
+  --clr-grey-500: 217 12% 63%;
+  --clr-grey-900: 213 19% 18%;
+  --clr-grey-950: 216 12% 8%;
+
+  /* typography */
+  --fs-15: 0.938rem;
+
+  --ff-overpass: "Overpass", sans-serif;
+
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100vh;
+
+  background-color: hsl(var(--clr-grey-950));
+  color: hsl(var(--clr-grey-500));
+  font-size: var(--fs-15);
+  font-weight: var(--fw-400);
+  font-family: var(--ff-overpass);
+}
