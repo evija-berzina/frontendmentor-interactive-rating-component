@@ -1,0 +1,12 @@
+.submit-container {
+  background-color: hsl(var(--clr-grey-900));
+  border-radius: 1.5rem;
+  width: min(100%, 380px);
+  margin-inline: auto;
+  padding: 1rem;
+  text-align: start;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

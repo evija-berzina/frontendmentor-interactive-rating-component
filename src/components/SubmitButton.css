@@ -1,0 +1,10 @@
+.submit-btn {
+  background-color: hsl(var(--clr-orange));
+  color: hsl(var(--clr-grey-950));
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+  padding-block: .75rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+}
