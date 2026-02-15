@@ -7,4 +7,9 @@
   border-radius: 2rem;
   border: none;
   cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.submit-btn:hover {
+  background-color: hsl(var(--clr-white));
 }
