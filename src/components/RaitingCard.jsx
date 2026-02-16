@@ -7,6 +7,10 @@ export function RaitingCard({setIsSubmited, activeRating, setActiveRating}) {
 
   function handleSubmit(event) {
     event.preventDefault();
+
+    if (!activeRating) return;
+
+    setIsSubmited(true);
   }
   
   return (
@@ -18,10 +22,7 @@ export function RaitingCard({setIsSubmited, activeRating, setActiveRating}) {
             activeRating={activeRating}
             setActiveRating={setActiveRating}
           />
-          <SubmitButton
-            setIsSubmited={setIsSubmited}
-            activeRating={activeRating}
-          />
+          <SubmitButton/>
         </form>
       </article>
     </main>
