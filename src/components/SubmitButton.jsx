@@ -1,9 +1,9 @@
 import './SubmitButton.css';
 
-export function SubmitButton({setIsSubmited}) {
+export function SubmitButton({setIsSubmited, activeRating}) {
 
   function ratingSubmited() {
-    setIsSubmited(true);
+    activeRating === null ? setIsSubmited(false) : setIsSubmited(true);
   }
 
   return (

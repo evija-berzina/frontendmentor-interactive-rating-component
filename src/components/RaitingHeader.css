@@ -19,3 +19,8 @@
 .header-hedding {
   color: hsl(var(--clr-white));
 }
+
+.header-text {
+  line-height: 1.5;
+  font-size: var(--fs-14);
+}

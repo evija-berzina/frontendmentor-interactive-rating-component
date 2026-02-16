@@ -14,11 +14,26 @@
 
   /* typography */
   --fs-15: 0.938rem;
+  --fs-14: 0.86rem;
 
   --ff-overpass: "Overpass", sans-serif;
 
   --fw-400: 400;
   --fw-700: 700;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Overpass';
+  font-weight: 400;
+  src: url('./fonts/Overpass-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Overpass';
+  font-weight: 700;
+  src: url('./fonts/Overpass-Bold.ttf') format('truetype');
 }
 
 body {

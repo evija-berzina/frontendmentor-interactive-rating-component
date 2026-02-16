@@ -10,7 +10,7 @@ export function RaitingHeader() {
       <h1 className="header-hedding">
         How did we do?
       </h1>
-      <p>
+      <p className="header-text">
         Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
       </p>
     </div>
