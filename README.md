@@ -5,7 +5,7 @@ The project was built using React and Vite.
 
 ## 🔗 Links
 
-![Live Site](https://rating-component-by-evija.netlify.app/)
+[Live Site](https://rating-component-by-evija.netlify.app/)
 
 ## 📸 Screenshot
 
